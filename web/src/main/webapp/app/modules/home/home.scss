@@ -1,0 +1,29 @@
+/* ==========================================================================
+Main page styles
+========================================================================== */
+.hipster {
+  display: inline-block;
+  width: 100%;
+  height: 497px;
+  background: url('../../../content/images/jhipster_family_member_2.svg') no-repeat center top;
+  background-size: contain;
+}
+.bg-box{
+  margin: 1vh 0;
+  padding: 1vh 2vh;
+  border-radius: 1vh;
+  background-color: #ececec;
+}
+.row{
+  margin: 0;
+  padding: 0;
+}
+.rounded-2x{
+  border-radius: 2em;
+}
+.fa-lg{
+  line-height: inherit !important;
+}
+a:hover{
+  color: #ececec;
+}

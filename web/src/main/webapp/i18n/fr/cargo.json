@@ -1,0 +1,35 @@
+{
+  "TestApp": {
+    "cargo": {
+      "home": {
+        "title": "Cargos",
+        "createLabel": "Créer un nouveau Cargo",
+        "createOrEditLabel": "Créer ou éditer un Cargo",
+        "notFound": "Aucun Cargo trouvé"
+      },
+      "created": "Un nouveau Cargo a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Cargo avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Cargo avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Cargo {{ id }} ?"
+      },
+      "detail": {
+        "title": "Cargo"
+      },
+      "uid": "Uid",
+      "user": "User",
+      "sourceaddress": "Sourceaddress",
+      "cargodescription": "Cargodescription",
+      "destinationaddress": "Destinationaddress",
+      "updateDate": "Update Date",
+      "createDate": "Create Date",
+      "sourcecity": "Sourcecity",
+      "sourcedistinct": "Sourcedistinct",
+      "vehicletype": "Vehicletype",
+      "vehiclecasetype": "Vehiclecasetype",
+      "cargotype": "Cargotype",
+      "destinationcity": "Destinationcity",
+      "destinationdistinct": "Destinationdistinct"
+    }
+  }
+}

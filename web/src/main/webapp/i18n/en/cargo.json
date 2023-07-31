@@ -1,0 +1,35 @@
+{
+  "TestApp": {
+    "cargo": {
+      "home": {
+        "title": "Cargos",
+        "createLabel": "Create a new Cargo",
+        "createOrEditLabel": "Create or edit a Cargo",
+        "notFound": "No Cargos found"
+      },
+      "created": "A new Cargo is created with identifier {{ param }}",
+      "updated": "A Cargo is updated with identifier {{ param }}",
+      "deleted": "A Cargo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cargo {{ id }}?"
+      },
+      "detail": {
+        "title": "Cargo"
+      },
+      "uid": "Uid",
+      "user": "User",
+      "sourceaddress": "Source Address",
+      "cargodescription": "Cargo Description",
+      "destinationaddress": "Destination Address",
+      "updateDate": "Update Date",
+      "createDate": "Create Date",
+      "sourcecity": "Sourcecity",
+      "sourcedistinct": "Source Distinct",
+      "vehicletype": "Vehicle Type",
+      "vehiclecasetype": "Vehicle Case Type",
+      "cargotype": "Cargo Type",
+      "destinationcity": "Destination City",
+      "destinationdistinct": "Destination Distinct"
+    }
+  }
+}

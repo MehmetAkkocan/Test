@@ -1,0 +1,35 @@
+{
+  "TestApp": {
+    "cargo": {
+      "home": {
+        "title": "Cargos",
+        "createLabel": "Kargo Ekle",
+        "createOrEditLabel": "Create or edit a Cargo",
+        "notFound": "No Cargos found"
+      },
+      "created": "A new Cargo is created with identifier {{ param }}",
+      "updated": "A Cargo is updated with identifier {{ param }}",
+      "deleted": "A Cargo is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Cargo {{ id }}?"
+      },
+      "detail": {
+        "title": "Cargo"
+      },
+      "uid": "Uid",
+      "user": "User",
+      "sourceaddress": "Yük Adresi",
+      "cargodescription": "Yük Açıklaması",
+      "destinationaddress": "Hedef Adres",
+      "updateDate": "Update Date",
+      "createDate": "Create Date",
+      "sourcecity": "Yük Şehri",
+      "sourcedistinct": "Yük İlçesi",
+      "vehicletype": "Araç Tipi",
+      "vehiclecasetype": "Kasa Tipi",
+      "cargotype": "Yük Türü",
+      "destinationcity": "Hedef İl",
+      "destinationdistinct": "Hedef İlçe"
+    }
+  }
+}

@@ -1,0 +1,139 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "sourcecity",
+            "otherEntityName": "lookup",
+			           "otherEntityField": "name",
+					    "ownerSide": true
+        },
+
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "sourcedistinct",
+            "otherEntityName": "lookup",
+			           "otherEntityField": "name",
+					    "ownerSide": true
+        },
+        {
+            "relationshipType": "many-to-one",
+            "relationshipName": "vehicletype",
+            "otherEntityName": "lookup",
+			           "otherEntityField": "name",
+					    "ownerSide": true
+        }
+,
+{
+    "relationshipType": "many-to-one",
+    "relationshipName": "vehiclecasetype",
+    "otherEntityName": "lookup",
+               "otherEntityField": "name",
+                "ownerSide": true
+}
+
+, {
+    "relationshipType": "many-to-one",
+    "relationshipName": "cargotype",
+    "otherEntityName": "lookup",
+               "otherEntityField": "name",
+                "ownerSide": true
+}
+,
+
+{
+    "relationshipType": "many-to-one",
+    "relationshipName": "destinationcity",
+    "otherEntityName": "lookup",
+               "otherEntityField": "name",
+                "ownerSide": true
+},
+
+{
+    "relationshipType": "many-to-one",
+    "relationshipName": "destinationdistinct",
+    "otherEntityName": "lookup",
+               "otherEntityField": "name",
+                "ownerSide": true
+}
+
+    ],
+    "fields": [
+        {
+            "fieldName": "uid",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "user",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        
+        {
+            "fieldName": "sourceaddress",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+      
+        
+      
+                    
+        {
+            "fieldName": "cargodescription",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },    
+       
+        {
+            "fieldName": "destinationaddress",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+
+        {
+            "fieldName": "updateDate",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "createDate",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "createBy",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "updateBy",
+            "fieldType": "String"
+        },
+    ],
+    "changelogDate": "20170526191626",
+    "entityTableName": "cargo",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "searchEngine": false,
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false
+}

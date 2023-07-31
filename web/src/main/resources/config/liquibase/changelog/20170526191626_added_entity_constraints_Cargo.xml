@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.9.xsd">
+    <!--
+        Added the constraints for entity Cargo.
+    -->
+    <changeSet id="20170526191626-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="sourcecity_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_sourcecity_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lookup"/>
+
+        <addForeignKeyConstraint baseColumnNames="sourcedistinct_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_sourcedistinct_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lookup"/>
+
+        <addForeignKeyConstraint baseColumnNames="vehicletype_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_vehicletype_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lookup"/>
+
+        <addForeignKeyConstraint baseColumnNames="vehiclecasetype_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_vehiclecasetype_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lookup"/>
+
+        <addForeignKeyConstraint baseColumnNames="cargotype_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_cargotype_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lookup"/>
+
+        <addForeignKeyConstraint baseColumnNames="destinationcity_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_destinationcity_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lookup"/>
+
+        <addForeignKeyConstraint baseColumnNames="destinationdistinct_id"
+                                 baseTableName="cargo"
+                                 constraintName="fk_cargo_destinationdistinct_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="lookup"/>
+
+    </changeSet>
+</databaseChangeLog>

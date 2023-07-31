@@ -1,0 +1,56 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+
+    ],
+    "fields": [
+        {
+            "fieldName": "uid",
+            "fieldType": "UUID",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+
+        {
+            "fieldName": "objectType",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "objectid",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "approve",
+            "fieldType": "Boolean",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }      ,
+          {
+            "fieldName": "updateDate",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+                  {
+            "fieldName": "createDate",
+            "fieldType": "ZonedDateTime",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170526191626",
+    "entityTableName": "pictuteObject",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

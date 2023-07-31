@@ -1,0 +1,35 @@
+{
+  "TestApp": {
+    "cargo": {
+      "home": {
+        "title": "Cargos",
+        "createLabel": "Vytvořit Cargo",
+        "createOrEditLabel": "Vytvořit nebo upravit Cargo",
+        "notFound": "No Cargos found"
+      },
+      "created": "Byl vytvořen potomek entity Cargo s identifikátorem {{ param }}",
+      "updated": "Potomek entity Cargo s identifikátorem {{ param }} byl upravený.",
+      "deleted": "Potomek entity Cargo s identifikátorem {{ param }} bol smazaný.",
+      "delete": {
+        "question": "Jste si jisti, že chcete smazat Cargo {{ id }}?"
+      },
+      "detail": {
+        "title": "Cargo"
+      },
+      "uid": "Uid",
+      "user": "User",
+      "sourceaddress": "Sourceaddress",
+      "cargodescription": "Cargodescription",
+      "destinationaddress": "Destinationaddress",
+      "updateDate": "Update Date",
+      "createDate": "Create Date",
+      "sourcecity": "Sourcecity",
+      "sourcedistinct": "Sourcedistinct",
+      "vehicletype": "Vehicletype",
+      "vehiclecasetype": "Vehiclecasetype",
+      "cargotype": "Cargotype",
+      "destinationcity": "Destinationcity",
+      "destinationdistinct": "Destinationdistinct"
+    }
+  }
+}

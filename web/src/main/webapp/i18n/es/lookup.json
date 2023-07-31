@@ -1,0 +1,49 @@
+{
+  "TestApp": {
+    "lookup": {
+      "wizard": {
+        "offerdescription": "Projeniz için size teklif verebilmemiz için ihtiyaclarınıza göre  soruları cevaplayınız",
+        "needandroid": "Android uygulamasına ihtiyacınız varmı ?",
+        "needios": "IOS uygulamasına ihtiyacınız varmı ?",
+        "needlogin": "Uygulamanızda Eposta ile Login mekanizmasına ihtiyacınız varmı ?",
+        "needsociallogin": "Sosyal Login mekanizması eklemek istermisiniz ?",
+        "needsensors": "ihtiyacınız olan sensorleri seçiniz ?",
+        "needsell": "Uygulamanızda ürün satacakmısınız ?",
+        "needgpsmap": "Harita ve gps  kullanacakmısınız ?",
+        "needstream": "Müsterişerinize veya müşterilerinizden size ses vaya video  aktarılacakmı ?",
+        "needfree": "Uygulamanız ücretlimi olacak ?",
+        "needsubsicription": "Aylık abonelik olacakmı ?",
+        "needsellItem": "Uygulama içi satış olacakmı ?",
+        "needweb": "Web arayüzüne ihtiyacınız varmı ?",
+        "needprofile": "Uygulamanızda Profil sayfasına ihtiyacınız varmı ?",
+        "needfinish": "Size iletilen teklif ve proje planından sonra eğer  uygun bulursanız detaylarınızı ",
+        "featurebluetooth": "You can use Bluetooth to communicate and transfer data  between devices. ?",
+        "featuregyroscope": "A gyroscope is a device that uses Earth’s gravity to help determine orientation.",
+        "featureaccelerometer": "An accelerometer is a compact device designed to measure non-gravitational acceleration.",
+        "featurecamera": "Take photos, read QR code or upload images from the camera roll."
+      },
+
+      "home": {
+        "title": "Lookups",
+        "createLabel": "Crear nuevo Lookup",
+        "createOrEditLabel": "Crear o editar Lookup",
+        "notFound": "Ningún Lookups encontrado"
+      },
+      "created": "Un nuevo Lookup ha sido creado con el identificador {{ param }}",
+      "updated": "Un Lookup ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Lookup ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Lookup {{ id }}?"
+      },
+      "detail": {
+        "title": "Lookup"
+      },
+      "name": "Name",
+      "lang": "Lang",
+      "uid": "Uid",
+      "value": "Value",
+      "description": "Description",
+      "parent": "Parent"
+    }
+  }
+}
